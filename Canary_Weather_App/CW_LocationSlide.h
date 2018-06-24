@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CW_LocationSlide.h
 //  Canary_Weather_App
 //
 //  Created by Sean Donato on 6/22/18.
@@ -8,9 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController <UIScrollViewDelegate>
-
-@property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
+@interface CW_LocationSlide : UIView
+@property (weak, nonatomic) IBOutlet UILabel *temperatureLabel;
 
 @end
-
