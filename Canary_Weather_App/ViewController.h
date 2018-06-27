@@ -8,9 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController <UIScrollViewDelegate>
+@interface ViewController : UIViewController 
 
 @property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
+-(void)setCurrentWeather:(NSDictionary*)currently;
+@property (weak, nonatomic) IBOutlet UILabel *localityCV;
 
 @end
 

@@ -20,6 +20,14 @@
 		A94DCBDF20DD999700094682 /* Canary_Weather_AppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A94DCBDE20DD999700094682 /* Canary_Weather_AppUITests.m */; };
 		A94DCBED20DDB83600094682 /* CW_LocationSlide.xib in Resources */ = {isa = PBXBuildFile; fileRef = A94DCBEC20DDB83600094682 /* CW_LocationSlide.xib */; };
 		A94DCBF020DDB85400094682 /* CW_LocationSlide.m in Sources */ = {isa = PBXBuildFile; fileRef = A94DCBEF20DDB85400094682 /* CW_LocationSlide.m */; };
+		A94DCBF320DF41D800094682 /* CW_DarkSkyAPICaller.m in Sources */ = {isa = PBXBuildFile; fileRef = A94DCBF220DF41D800094682 /* CW_DarkSkyAPICaller.m */; };
+		A94DCBF520E06FA900094682 /* CW_LocationsView.m in Sources */ = {isa = PBXBuildFile; fileRef = A94DCBF420E06FA900094682 /* CW_LocationsView.m */; };
+		A94DCBFA20E070D800094682 /* CW_AddLocationView.m in Sources */ = {isa = PBXBuildFile; fileRef = A94DCBF820E070D800094682 /* CW_AddLocationView.m */; };
+		A94DCBFB20E070D800094682 /* CW_AddLocationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A94DCBF920E070D800094682 /* CW_AddLocationView.xib */; };
+		A94DCBFE20E0727A00094682 /* CW_ForecastCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = A94DCBFD20E0727A00094682 /* CW_ForecastCollection.m */; };
+		A94DCC0120E12D9000094682 /* CW_ForecastCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A94DCC0020E12D9000094682 /* CW_ForecastCell.m */; };
+		A9C80B3320E297960074B74E /* CW_WeatherDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C80B3120E297960074B74E /* CW_WeatherDetail.m */; };
+		A9C80B3420E297960074B74E /* CW_WeatherDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9C80B3220E297960074B74E /* CW_WeatherDetail.xib */; };
 		F569EDC95D9394F316C45038 /* libPods-Canary_Weather_AppUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C89E83EF16CB4886F975D4FD /* libPods-Canary_Weather_AppUITests.a */; };
 /* End PBXBuildFile section */
 
@@ -68,6 +76,20 @@
 		A94DCBEC20DDB83600094682 /* CW_LocationSlide.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CW_LocationSlide.xib; sourceTree = "<group>"; };
 		A94DCBEE20DDB85400094682 /* CW_LocationSlide.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CW_LocationSlide.h; sourceTree = "<group>"; };
 		A94DCBEF20DDB85400094682 /* CW_LocationSlide.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CW_LocationSlide.m; sourceTree = "<group>"; };
+		A94DCBF120DF41D800094682 /* CW_DarkSkyAPICaller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CW_DarkSkyAPICaller.h; sourceTree = "<group>"; };
+		A94DCBF220DF41D800094682 /* CW_DarkSkyAPICaller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CW_DarkSkyAPICaller.m; sourceTree = "<group>"; };
+		A94DCBF420E06FA900094682 /* CW_LocationsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CW_LocationsView.m; sourceTree = "<group>"; };
+		A94DCBF620E06FB900094682 /* CW_LocationsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CW_LocationsView.h; sourceTree = "<group>"; };
+		A94DCBF720E070D800094682 /* CW_AddLocationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CW_AddLocationView.h; sourceTree = "<group>"; };
+		A94DCBF820E070D800094682 /* CW_AddLocationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CW_AddLocationView.m; sourceTree = "<group>"; };
+		A94DCBF920E070D800094682 /* CW_AddLocationView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CW_AddLocationView.xib; sourceTree = "<group>"; };
+		A94DCBFC20E0727A00094682 /* CW_ForecastCollection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CW_ForecastCollection.h; sourceTree = "<group>"; };
+		A94DCBFD20E0727A00094682 /* CW_ForecastCollection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CW_ForecastCollection.m; sourceTree = "<group>"; };
+		A94DCBFF20E12D9000094682 /* CW_ForecastCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CW_ForecastCell.h; sourceTree = "<group>"; };
+		A94DCC0020E12D9000094682 /* CW_ForecastCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CW_ForecastCell.m; sourceTree = "<group>"; };
+		A9C80B3020E297960074B74E /* CW_WeatherDetail.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CW_WeatherDetail.h; sourceTree = "<group>"; };
+		A9C80B3120E297960074B74E /* CW_WeatherDetail.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CW_WeatherDetail.m; sourceTree = "<group>"; };
+		A9C80B3220E297960074B74E /* CW_WeatherDetail.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CW_WeatherDetail.xib; sourceTree = "<group>"; };
 		C89E83EF16CB4886F975D4FD /* libPods-Canary_Weather_AppUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Canary_Weather_AppUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAA9A29284BE2980810FACBF /* Pods-Canary_Weather_AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Canary_Weather_AppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Canary_Weather_AppUITests/Pods-Canary_Weather_AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -132,12 +154,26 @@
 				A94DCBEC20DDB83600094682 /* CW_LocationSlide.xib */,
 				A94DCBEE20DDB85400094682 /* CW_LocationSlide.h */,
 				A94DCBEF20DDB85400094682 /* CW_LocationSlide.m */,
+				A94DCBF120DF41D800094682 /* CW_DarkSkyAPICaller.h */,
+				A94DCBF220DF41D800094682 /* CW_DarkSkyAPICaller.m */,
+				A94DCBF420E06FA900094682 /* CW_LocationsView.m */,
+				A94DCBF620E06FB900094682 /* CW_LocationsView.h */,
+				A94DCBF720E070D800094682 /* CW_AddLocationView.h */,
+				A94DCBF820E070D800094682 /* CW_AddLocationView.m */,
+				A94DCBF920E070D800094682 /* CW_AddLocationView.xib */,
+				A94DCBFC20E0727A00094682 /* CW_ForecastCollection.h */,
+				A94DCBFD20E0727A00094682 /* CW_ForecastCollection.m */,
+				A94DCBFF20E12D9000094682 /* CW_ForecastCell.h */,
+				A94DCC0020E12D9000094682 /* CW_ForecastCell.m */,
 				A94DCBBD20DD999400094682 /* Main.storyboard */,
 				A94DCBC320DD999700094682 /* Assets.xcassets */,
 				A94DCBC520DD999700094682 /* LaunchScreen.storyboard */,
 				A94DCBC820DD999700094682 /* Info.plist */,
 				A94DCBC920DD999700094682 /* main.m */,
 				A94DCBC020DD999400094682 /* Canary_Weather_App.xcdatamodeld */,
+				A9C80B3020E297960074B74E /* CW_WeatherDetail.h */,
+				A9C80B3120E297960074B74E /* CW_WeatherDetail.m */,
+				A9C80B3220E297960074B74E /* CW_WeatherDetail.xib */,
 			);
 			path = Canary_Weather_App;
 			sourceTree = "<group>";
@@ -294,6 +330,8 @@
 				A94DCBC720DD999700094682 /* LaunchScreen.storyboard in Resources */,
 				A94DCBC420DD999700094682 /* Assets.xcassets in Resources */,
 				A94DCBBF20DD999400094682 /* Main.storyboard in Resources */,
+				A94DCBFB20E070D800094682 /* CW_AddLocationView.xib in Resources */,
+				A9C80B3420E297960074B74E /* CW_WeatherDetail.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,8 +434,14 @@
 				A94DCBC220DD999400094682 /* Canary_Weather_App.xcdatamodeld in Sources */,
 				A94DCBBC20DD999400094682 /* ViewController.m in Sources */,
 				A94DCBCA20DD999700094682 /* main.m in Sources */,
+				A94DCBF320DF41D800094682 /* CW_DarkSkyAPICaller.m in Sources */,
 				A94DCBF020DDB85400094682 /* CW_LocationSlide.m in Sources */,
+				A94DCBFA20E070D800094682 /* CW_AddLocationView.m in Sources */,
+				A9C80B3320E297960074B74E /* CW_WeatherDetail.m in Sources */,
+				A94DCBF520E06FA900094682 /* CW_LocationsView.m in Sources */,
 				A94DCBB920DD999400094682 /* AppDelegate.m in Sources */,
+				A94DCC0120E12D9000094682 /* CW_ForecastCell.m in Sources */,
+				A94DCBFE20E0727A00094682 /* CW_ForecastCollection.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
